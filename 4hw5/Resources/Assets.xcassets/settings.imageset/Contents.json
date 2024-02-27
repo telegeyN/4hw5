@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "settings-icon-2048x2046-cw28eevx.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
