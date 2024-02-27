@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct Item {
+    var logoImage: String
+    var news: String
+    var time: String
+    var foodImage: String
+    var dotsImage: String
+}

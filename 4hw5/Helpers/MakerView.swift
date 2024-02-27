@@ -30,21 +30,41 @@ class MakerView {
         return label
     }
     
-    func makerImage(imageName: String = "",
-                    translatesAutoresizingMaskIntoConstraints: Bool = false
-    ) -> UIImageView {
-        let image = UIImageView()
-        image.image = UIImage(named: imageName)
-        image.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
-        return image
+    func makerTextFieldWithUnderline(placeholder: String = "",
+                                     font: UIFont = Fonts.semiBold.size(16),
+                                     textColor: UIColor = UIColor.black,
+                                     backgroundColor: UIColor = UIColor.clear,
+                                     textAlignment: NSTextAlignment = NSTextAlignment.left,
+                                     placeholderColor: UIColor = .lightGray,
+                                     placeholderFont: UIFont = UIFont.systemFont(ofSize: 13),
+                                     translatesAutoresizingMaskIntoConstraints: Bool = false) -> UITextField {
+        let textField = UITextField()
+        textField.placeholder = placeholder
+        textField.font = font
+        textField.textColor = textColor
+        textField.backgroundColor = backgroundColor
+        textField.textAlignment = textAlignment
+        
+        
+        let bottomLine = UIView()
+        bottomLine.backgroundColor = .init(hex: "#F5484A")
+        bottomLine.translatesAutoresizingMaskIntoConstraints = false
+        textField.addSubview(bottomLine)
+        
+        bottomLine.leadingAnchor.constraint(equalTo: textField.leadingAnchor).isActive = true
+        bottomLine.trailingAnchor.constraint(equalTo: textField.trailingAnchor).isActive = true
+        bottomLine.bottomAnchor.constraint(equalTo: textField.bottomAnchor).isActive = true
+        bottomLine.heightAnchor.constraint(equalToConstant: 1).isActive = true
+        textField.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
+        return textField
     }
     
-    
-    func makerButton(backgroundColor: UIColor = .init(hex: "#767680", alpha: 0.2),
+    func makerButton(backgroundColor: UIColor = .init(hex: "#F5484A"),
                      image: UIImage? = nil,
+                     image2: UIImage? = nil,
                      title: String = "",
-                     titleColor: UIColor = .black,
-                     titleFont: UIFont = Fonts.regular.size(17),
+                     titleColor: UIColor = .white,
+                     titleFont: UIFont = Fonts.bold.size(16),
                      cornerRadius: CGFloat = 15,
                      borderWidth: CGFloat = 0,
                      borderColor: UIColor = .clear,
@@ -53,6 +73,7 @@ class MakerView {
         let button = UIButton()
         button.backgroundColor = backgroundColor
         button.setImage(image, for: .normal)
+        button.setImage(image2, for: .selected)
         button.setTitle(title, for: .normal)
         button.setTitleColor(titleColor, for: .normal)
         button.titleLabel?.font = titleFont

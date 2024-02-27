@@ -89,20 +89,20 @@ class CustomtTableViewCell: UITableViewCell {
             timeLabel.widthAnchor.constraint(equalToConstant: 198)
         ])
         
-        bgView.addSubview(foodImage)
-        NSLayoutConstraint.activate([
-            foodImage.centerYAnchor.constraint(equalTo: bgView.centerYAnchor),
-            foodImage.leadingAnchor.constraint(equalTo: newsLabel.trailingAnchor, constant: 8),
-            foodImage.heightAnchor.constraint(equalToConstant: 72),
-            foodImage.widthAnchor.constraint(equalToConstant: 72)
-        ])
-        
         bgView.addSubview(dotsImage)
         NSLayoutConstraint.activate([
             dotsImage.centerYAnchor.constraint(equalTo: bgView.centerYAnchor),
             dotsImage.trailingAnchor.constraint(equalTo: bgView.trailingAnchor, constant: -5),
             dotsImage.heightAnchor.constraint(equalToConstant: 18),
             dotsImage.widthAnchor.constraint(equalToConstant: 4)
+        ])
+        
+        bgView.addSubview(foodImage)
+        NSLayoutConstraint.activate([
+            foodImage.centerYAnchor.constraint(equalTo: bgView.centerYAnchor),
+            foodImage.trailingAnchor.constraint(equalTo: dotsImage.leadingAnchor, constant: -8),
+            foodImage.heightAnchor.constraint(equalToConstant: 72),
+            foodImage.widthAnchor.constraint(equalToConstant: 72)
         ])
         
     }

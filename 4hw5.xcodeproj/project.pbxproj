@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		72908CDD2B8B9C310017D1D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72908CDC2B8B9C310017D1D5 /* AppDelegate.swift */; };
 		72908CDF2B8B9C310017D1D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72908CDE2B8B9C310017D1D5 /* SceneDelegate.swift */; };
-		72908CE12B8B9C310017D1D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72908CE02B8B9C310017D1D5 /* ViewController.swift */; };
-		72908CE42B8B9C310017D1D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72908CE22B8B9C310017D1D5 /* Main.storyboard */; };
+		72908CE12B8B9C310017D1D5 /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72908CE02B8B9C310017D1D5 /* NewPasswordViewController.swift */; };
 		72908CE62B8B9C340017D1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72908CE52B8B9C340017D1D5 /* Assets.xcassets */; };
 		72908CE92B8B9C340017D1D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72908CE72B8B9C340017D1D5 /* LaunchScreen.storyboard */; };
+		72908CF92B8BA5EC0017D1D5 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72908CF82B8BA5EC0017D1D5 /* NotificationViewController.swift */; };
+		72908CFD2B8BA6050017D1D5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72908CFC2B8BA6050017D1D5 /* Color.swift */; };
+		72908D002B8BA6980017D1D5 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72908CFF2B8BA6980017D1D5 /* Font.swift */; };
+		72908D022B8BA7090017D1D5 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72908D012B8BA7090017D1D5 /* Urbanist-Bold.ttf */; };
+		72908D042B8BA7170017D1D5 /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72908D032B8BA7170017D1D5 /* Urbanist-Medium.ttf */; };
+		72908D072B8BA7220017D1D5 /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72908D052B8BA7220017D1D5 /* Urbanist-SemiBold.ttf */; };
+		72908D082B8BA7220017D1D5 /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72908D062B8BA7220017D1D5 /* Urbanist-Regular.ttf */; };
+		72908D0B2B8BA7EE0017D1D5 /* MakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72908D0A2B8BA7EE0017D1D5 /* MakerView.swift */; };
+		72908D0E2B8DEF500017D1D5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72908D0D2B8DEF500017D1D5 /* CustomTableViewCell.swift */; };
+		72908D142B8DF6C10017D1D5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72908D132B8DF6C10017D1D5 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72908CD92B8B9C310017D1D5 /* 4hw5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4hw5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72908CDC2B8B9C310017D1D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72908CDE2B8B9C310017D1D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72908CE02B8B9C310017D1D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		72908CE32B8B9C310017D1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72908CE02B8B9C310017D1D5 /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
 		72908CE52B8B9C340017D1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72908CE82B8B9C340017D1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72908CEA2B8B9C340017D1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72908CF82B8BA5EC0017D1D5 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		72908CFC2B8BA6050017D1D5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		72908CFF2B8BA6980017D1D5 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		72908D012B8BA7090017D1D5 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Bold.ttf"; path = "../../../../resources/fonts/Urbanist/static/Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		72908D032B8BA7170017D1D5 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Medium.ttf"; path = "../../../../resources/fonts/Urbanist/static/Urbanist-Medium.ttf"; sourceTree = "<group>"; };
+		72908D052B8BA7220017D1D5 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-SemiBold.ttf"; path = "../../../../resources/fonts/Urbanist/static/Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
+		72908D062B8BA7220017D1D5 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Regular.ttf"; path = "../../../../resources/fonts/Urbanist/static/Urbanist-Regular.ttf"; sourceTree = "<group>"; };
+		72908D0A2B8BA7EE0017D1D5 /* MakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerView.swift; sourceTree = "<group>"; };
+		72908D0D2B8DEF500017D1D5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		72908D132B8DF6C10017D1D5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,88 @@
 		72908CDB2B8B9C310017D1D5 /* 4hw5 */ = {
 			isa = PBXGroup;
 			children = (
-				72908CDC2B8B9C310017D1D5 /* AppDelegate.swift */,
-				72908CDE2B8B9C310017D1D5 /* SceneDelegate.swift */,
-				72908CE02B8B9C310017D1D5 /* ViewController.swift */,
-				72908CE22B8B9C310017D1D5 /* Main.storyboard */,
-				72908CE52B8B9C340017D1D5 /* Assets.xcassets */,
+				72908CF62B8BA57A0017D1D5 /* AppDelegate */,
+				72908D092B8BA7D30017D1D5 /* Helpers */,
+				72908CF72B8BA5A50017D1D5 /* Controllers */,
+				72908D0C2B8DEF360017D1D5 /* Cell */,
+				72908D0F2B8DF6960017D1D5 /* Model */,
+				72908CFA2B8BA5F10017D1D5 /* Resources */,
 				72908CE72B8B9C340017D1D5 /* LaunchScreen.storyboard */,
 				72908CEA2B8B9C340017D1D5 /* Info.plist */,
 			);
 			path = 4hw5;
+			sourceTree = "<group>";
+		};
+		72908CF62B8BA57A0017D1D5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				72908CDC2B8B9C310017D1D5 /* AppDelegate.swift */,
+				72908CDE2B8B9C310017D1D5 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		72908CF72B8BA5A50017D1D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72908CE02B8B9C310017D1D5 /* NewPasswordViewController.swift */,
+				72908CF82B8BA5EC0017D1D5 /* NotificationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72908CFA2B8BA5F10017D1D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72908CE52B8B9C340017D1D5 /* Assets.xcassets */,
+				72908CFE2B8BA6860017D1D5 /* Fonts */,
+				72908CFB2B8BA5F90017D1D5 /* Color */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		72908CFB2B8BA5F90017D1D5 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				72908CFC2B8BA6050017D1D5 /* Color.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		72908CFE2B8BA6860017D1D5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				72908CFF2B8BA6980017D1D5 /* Font.swift */,
+				72908D012B8BA7090017D1D5 /* Urbanist-Bold.ttf */,
+				72908D052B8BA7220017D1D5 /* Urbanist-SemiBold.ttf */,
+				72908D062B8BA7220017D1D5 /* Urbanist-Regular.ttf */,
+				72908D032B8BA7170017D1D5 /* Urbanist-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		72908D092B8BA7D30017D1D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				72908D0A2B8BA7EE0017D1D5 /* MakerView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		72908D0C2B8DEF360017D1D5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				72908D0D2B8DEF500017D1D5 /* CustomTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		72908D0F2B8DF6960017D1D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72908D132B8DF6C10017D1D5 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72908D072B8BA7220017D1D5 /* Urbanist-SemiBold.ttf in Resources */,
+				72908D022B8BA7090017D1D5 /* Urbanist-Bold.ttf in Resources */,
+				72908D042B8BA7170017D1D5 /* Urbanist-Medium.ttf in Resources */,
 				72908CE92B8B9C340017D1D5 /* LaunchScreen.storyboard in Resources */,
 				72908CE62B8B9C340017D1D5 /* Assets.xcassets in Resources */,
-				72908CE42B8B9C310017D1D5 /* Main.storyboard in Resources */,
+				72908D082B8BA7220017D1D5 /* Urbanist-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +232,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72908CE12B8B9C310017D1D5 /* ViewController.swift in Sources */,
+				72908D142B8DF6C10017D1D5 /* Model.swift in Sources */,
+				72908CE12B8B9C310017D1D5 /* NewPasswordViewController.swift in Sources */,
 				72908CDD2B8B9C310017D1D5 /* AppDelegate.swift in Sources */,
+				72908D0E2B8DEF500017D1D5 /* CustomTableViewCell.swift in Sources */,
+				72908D002B8BA6980017D1D5 /* Font.swift in Sources */,
+				72908CF92B8BA5EC0017D1D5 /* NotificationViewController.swift in Sources */,
+				72908CFD2B8BA6050017D1D5 /* Color.swift in Sources */,
 				72908CDF2B8B9C310017D1D5 /* SceneDelegate.swift in Sources */,
+				72908D0B2B8BA7EE0017D1D5 /* MakerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		72908CE22B8B9C310017D1D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72908CE32B8B9C310017D1D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		72908CE72B8B9C340017D1D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +389,6 @@
 				INFOPLIST_FILE = 4hw5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +416,6 @@
 				INFOPLIST_FILE = 4hw5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
